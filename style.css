@@ -1,0 +1,70 @@
+/*
+https://coolors.co/palette/#ff006e-7209b7-3a0ca3-4361ee-4cc9f0
+rosa: 255, 0, 110,
+roxo: 114, 9, 183
+azul escuro: 58, 12, 163
+azul claro: 67, 97, 238
+verde: 76, 201, 240
+*/
+
+
+
+@font-face {
+    font-family:  Inconsolata;
+    src: url(/fonts/SourceCodePro-VariableFont_wght.ttf);
+  }
+  
+
+
+*{
+    font-family: 'Inconsolata', monospace;
+}
+
+
+#home>h3.subtitle{
+    color:aliceblue !important;
+}
+
+#home > div > div > div > div:nth-child(2) > div > div > div > a,
+#home > div > div > div > div:nth-child(2) > div > div > div > h1,
+#home > div > div > div > div:nth-child(2) > div > div > div > h3{
+    color:#fff;
+    
+
+}
+
+
+#home{
+    background-image:   linear-gradient(150deg, rgba(255, 0, 110,0.9) 40%,rgba( 114, 9, 183,0.6)),
+    url(/img/lauren-mancke-aOC7TSLb1o8-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+
+.btn > span > i{
+   font-size:30px;
+}
+
+.btn > span > i:hover{
+    color: rgb(58, 12, 163);
+}
+
+.my-projects{
+    width: 100%;
+    height:400px;
+}
+
+
+#projetos{
+    background:   linear-gradient(180deg, rgba(114, 9, 183,0.5), rgba(255, 0, 11,0.9));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+
+}
+
